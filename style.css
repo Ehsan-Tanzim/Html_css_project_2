@@ -4,9 +4,8 @@
 }
 header {
   background-color: rgba(229, 84, 115, 0.1);
-  
 }
-.header-contain {
+.contain {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,9 +13,9 @@ header {
   max-width: 1440px;
   margin: 0 auto;
 }
-.head-content *{
-    margin-bottom: 32px;
-    max-width: 476px;
+.head-content * {
+  margin-bottom: 32px;
+  max-width: 476px;
 }
 .title {
   color: rgb(39, 39, 39);
@@ -37,14 +36,136 @@ header {
   text-align: left;
 }
 
-.btn{
-    border-radius: 8px;
-    background: rgb(229, 84, 115);
-    padding: 20px 25px;
-    border: none;
-    color: white;
+.btn {
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  padding: 20px 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 2s;
 }
-.header-img img{
-    width: 100%;
-    vertical-align: middle;
+button:hover {
+  background: purple;
+}
+.header-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* feature section */
+
+.feature {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 178px;
+}
+.flowers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.feature-content {
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.feature-content * {
+  margin-bottom: 20px;
+}
+.feature-head {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.feature-p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.img1 img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 30px 25px 0;
+  display: flex;
+  align-items: end;
+  height: 500px;
+}
+.img2 img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 30px 25px 0;
+  display: flex;
+  align-items: end;
+  height: 500px;
+}
+.img3 img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 30px 25px 0;
+  display: flex;
+  align-items: end;
+  height: 500px;
+}
+.flowers p {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.flowers * {
+  margin-bottom: 10px;
+}
+
+/* Hot -deal */
+.Hot-deal {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.deal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.deal-content {
+  width: 550px;
+  margin: 0 auto;
+}
+.deal-content-h {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.deal-content-p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  
+}
+.deal-content *{
+    margin-bottom: 10px;
 }
